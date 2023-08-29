@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60959D26-1390-4BB5-BF91-11E0970111EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>HR_Management_Recruitment.My.MyApplication</StartupObject>
+    <RootNamespace>HR_Management_Recruitment</RootNamespace>
+    <AssemblyName>HR Management Recruitment</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>HR Management Recruitment.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>HR Management Recruitment.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCourseForm.Designer.vb">
+      <DependentUpon>AddCourseForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCourseForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BranchDetForm.Designer.vb">
+      <DependentUpon>BranchDetForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BranchDetForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseDetForm.Designer.vb">
+      <DependentUpon>CourseDetForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CourseDetForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartmentForm.Designer.vb">
+      <DependentUpon>DepartmentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignationForm.Designer.vb">
+      <DependentUpon>DesignationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpDetForm.Designer.vb">
+      <DependentUpon>EmpDetForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmpDetForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpListForm.Designer.vb">
+      <DependentUpon>EmpListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmpListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpSalaryDetailsForm.Designer.vb">
+      <DependentUpon>EmpSalaryDetailsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmpSalaryDetailsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterviewForm.designer.vb">
+      <DependentUpon>InterviewForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InterviewForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobOpeningsForm.designer.vb">
+      <DependentUpon>JobOpeningsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobOpeningsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.vb">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ResumeEntry1Form.Designer.vb">
+      <DependentUpon>ResumeEntry1Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResumeEntry1Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResumeEntry2Form.Designer.vb">
+      <DependentUpon>ResumeEntry2Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResumeEntry2Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResumeEntry3Form.Designer.vb">
+      <DependentUpon>ResumeEntry3Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResumeEntry3Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResumeListForm.Designer.vb">
+      <DependentUpon>ResumeListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResumeListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResumeMatchRep.designer.vb">
+      <DependentUpon>ResumeMatchRep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResumeMatchRep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RIModule1.vb" />
+    <Compile Include="SelectionForm.designer.vb">
+      <DependentUpon>SelectionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddCourseForm.resx">
+      <DependentUpon>AddCourseForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BranchDetForm.resx">
+      <DependentUpon>BranchDetForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseDetForm.resx">
+      <DependentUpon>CourseDetForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartmentForm.resx">
+      <DependentUpon>DepartmentForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignationForm.resx">
+      <DependentUpon>DesignationForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpDetForm.resx">
+      <DependentUpon>EmpDetForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpListForm.resx">
+      <DependentUpon>EmpListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpSalaryDetailsForm.resx">
+      <DependentUpon>EmpSalaryDetailsForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterviewForm.resx">
+      <DependentUpon>InterviewForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobOpeningsForm.resx">
+      <DependentUpon>JobOpeningsForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResumeEntry1Form.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResumeEntry1Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResumeEntry2Form.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResumeEntry2Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResumeEntry3Form.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResumeEntry3Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResumeListForm.resx">
+      <DependentUpon>ResumeListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResumeMatchRep.resx">
+      <DependentUpon>ResumeMatchRep.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectionForm.resx">
+      <DependentUpon>SelectionForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
