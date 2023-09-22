@@ -5,11 +5,11 @@ team how to strategically manage people as business resources. This includes man
 training and development strategies.
 
 ## Software requirements :
-The software used here consists of: 
-Operating System                :  windows 8 and above
-Developing Tool                 :   MS visual Studio 2010
-Front End (Design)              :   VB.NET
-Back End (Database)             :   MS SQL server 2008
+#### The software used here consists of: 
+#### Operating System                :  windows 8 and above
+#### Developing Tool                 :   MS visual Studio 2010
+#### Front End (Design)              :   VB.NET
+#### Back End (Database)             :   MS SQL server 2008
 
 # OUTPUT:
 
